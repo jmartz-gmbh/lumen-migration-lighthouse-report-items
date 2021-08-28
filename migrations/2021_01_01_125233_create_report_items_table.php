@@ -20,7 +20,7 @@ class CreateReportItemsTable extends Migration
             Schema::create($this->tablename, function (Blueprint $table) {
                 $table->increments('id');
                 $table->string('type');
-                $table->integer('hash');
+                $table->string('hash');
                 $table->string('json');
                 $table->timestamps();
             });
