@@ -21,7 +21,7 @@ class CreateReportItemsTable extends Migration
                 $table->increments('id');
                 $table->string('type');
                 $table->string('hash');
-                $table->string('json');
+                $table->json('json');
                 $table->timestamps();
             });
         }
