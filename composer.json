@@ -1,0 +1,31 @@
+{
+    "name": "jmartz-gmbh/lumen-migration-lighthouse-report-items",
+    "description": "Php Lumen Lighthouse Report Items Migration",
+    "require": {
+        "php": "^8.0",
+        "illuminate/http": "^8.0",
+        "illuminate/support": "^8.0",
+        "illuminate/database": "^8.40.0"
+    },
+    "autoload": {
+        "classmap": [
+            "migrations",
+            "providers"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jonathan Martz",
+            "email": "composer@jmartz.de",
+            "homepage": "https://www.jmartz.de",
+            "role": "Developer"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "App\\Providers\\LighthouseReportItemsMigrationProvider"
+            ]
+        }
+    }
+}
