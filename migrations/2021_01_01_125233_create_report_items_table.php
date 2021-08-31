@@ -7,7 +7,7 @@ use Illuminate\Database\Migrations\Migration;
 class CreateReportItemsTable extends Migration
 {
 
-    public $tablename = 'reports_items';
+    public $tablename = 'report_items';
 
     /**
      * Run the migrations.
